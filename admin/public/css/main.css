@@ -1,0 +1,122 @@
+.content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-content,
+.form-add {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button > button {
+    width: 30%;
+}
+
+.form-error {
+    font-size: 12px;
+    color: red;
+}
+
+th,
+td {
+    font-size: 13px;
+}
+
+/* login */
+.login {
+    background-image: linear-gradient(to right, #06b6d4, #3b82f6);
+}
+
+.login > form {
+    background-color: #ffffff;
+}
+
+.answer-range {
+    height: 35px;
+    border-radius: 0.25rem;
+    background-color: #999;
+    position: relative;
+}
+
+.answer-range > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.answer-range-one,
+.answer-range-two,
+.answer-range-three,
+.answer-range-four {
+    border-radius: 0.25rem;
+    height: 100%;
+}
+
+.answer-range-one {
+    background-color: green;
+}
+
+.answer-range-two {
+    background-color: #476a00;
+}
+
+.answer-range-three {
+    background-color: #a4c61e;
+}
+
+.answer-range-four {
+    background-color: #198753;
+}
+
+.synthetic-item {
+    height: 130px;
+    border-radius: 3px;
+    padding: 15px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.synthetic-item>h5 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 17px;
+}
+
+.synthetic-item-content {
+    font-size: 32px;
+    position: relative;
+}
+
+.synthetic-item-content>span {
+    transform: translateY(4px);
+    display: inline-block;
+}
+
+.synthetic-item.green {
+    background-color: green;
+}
+
+.synthetic-item.red {
+    background-color: #CC3333;
+}
+
+.synthetic-item.blue {
+    background-color: #003399;
+}
+
+.synthetic-item.yellow {
+    background-color: #FF9900;
+}

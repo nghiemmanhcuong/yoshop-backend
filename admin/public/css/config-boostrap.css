@@ -1,0 +1,78 @@
+/* navbar */
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+}
+
+.dropdown-menu  {
+    font-size: 13px;
+    min-width: max-content;
+}
+
+.dropdown-item {
+    padding: 5px 10px;
+}
+
+.dropdown-item > i {
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+/* form */
+.form-control,
+.form-select {
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.05rem rgb(13 110 253 / 25%);
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form-select.multiple-select {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    font-size: 14px;
+}
+
+/* alert */
+.alert {
+    position: relative;
+    padding: 0.8rem 0.8rem;
+}
+
+.alert.small {
+    width: max-content;
+}
+
+.alert > i {
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.alert > i:hover {
+    color: #f74d4d;
+}
+
+/* btn */
+.btn.link {
+    font-size: 12px;
+    padding: 3px 8px;
+}
